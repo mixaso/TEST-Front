@@ -1,0 +1,32 @@
+header {
+  position: relative;
+  background: #fff;
+  height: 90px;
+  .banner {
+    height: 84px;
+    width: calc(~'100vw - 50px');
+    background: linear-gradient(200.96deg, #5F0068 6.64%, #310037 92.79%);
+    border-radius: 8px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -42px;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 1110px) {
+  header {
+    height: 134px;
+    .banner {
+      width: 1025px;
+      left: 31px;
+      right: inherit;
+    }
+  }
+}
