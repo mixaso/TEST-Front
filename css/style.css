@@ -167,6 +167,7 @@ main section .items .item:nth-child(3n + 1) {
 main section .items .item_img {
   position: relative;
   margin-bottom: -30px;
+  border-radius: 12px;
 }
 main section .items .item_img img {
   width: 100%;
